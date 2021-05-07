@@ -72,3 +72,9 @@ a:active.featured {
     color: initial
     text-decoration: underline;
 }
+
+details {
+    padding-top: 10px;
+    font-size: small;
+    color: #13a4a4;
+}
