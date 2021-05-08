@@ -1,0 +1,41 @@
+body {
+    font-size: 16px;
+}
+
+.slogan {
+    font-size: 1.2em;
+    padding: 1.2em;
+    background-color: #CAC5C2;
+}
+
+div {
+    margin-bottom: 2em;
+}
+
+.padded {
+    font-size: 16px;
+    padding: 2em;
+}
+
+.padded a:link {
+    color: purple;
+    text-decoration: none;
+}
+
+.boxes {
+    padding: 2em;
+}
+
+.box {
+    padding: 1em;
+    border-radius: 1em;
+    background-color: #F5C249;
+}
+
+.box-small{
+    font-size: 18px;
+}
+
+.box-large {
+    font-size: 18px;
+}
