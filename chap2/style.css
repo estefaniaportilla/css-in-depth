@@ -1,6 +1,23 @@
+:root {
+    font-size: calc(0.5 + 1vw);
+}
+
+@media (min-width: 800px) {
+    :root {
+    font-size: 0.875em; 
+    }
+}
+
+@media (min-width: 1200px) {
+    :root {
+      font-size: 1em;
+    }
+}
+
 body {
     font-size: 16px;
 }
+
 
 .slogan {
     font-size: 1.2em;
@@ -38,4 +55,32 @@ div {
 
 .box-large {
     font-size: 18px;
+}
+
+ul {
+    font-size: .8rem;
+}
+
+.panel {
+    font-size: 1rem;
+    padding: 1em;
+    border: 1px solid #999;
+    border-radius: 0.5em;
+}
+  
+.panel > h2 {
+    margin-top: 0;
+    font-size: 0.8em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.panel.large {
+    font-size: 1.2rem;
+}
+
+.square {
+    width: 90vmin;
+    height: 90vmin;
+    background-color:#A0D453;
 }
